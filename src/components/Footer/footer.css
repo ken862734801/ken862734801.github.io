@@ -3,13 +3,14 @@
 }
 
 footer{
-    position:absolute;
+    /* position:absolute;
     bottom:0;
-    left:0;
+    left:0; */
     text-align: center;
     width:100%;
     padding:20px 0px;
     z-index:1000;
+    /* border:1px solid red; */
 }
 .footer-container{
     display:flex;

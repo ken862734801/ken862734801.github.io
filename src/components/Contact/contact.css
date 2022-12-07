@@ -168,10 +168,11 @@ button {
   }
 
   #contact-page{
-    animation: fadein 1s;
-    -moz-animation: fadein 1s; /* Firefox */
-    -webkit-animation: fadein 1s; /* Safari and Chrome */
-    -o-animation: fadein 1s; /* Opera */
+    min-height:100vh;
+    animation: fadein 0.75s;
+    -moz-animation: fadein 0.75s; /* Firefox */
+    -webkit-animation: fadein 0.75s; /* Safari and Chrome */
+    -o-animation: fadein 0.75s; /* Opera */
 }
 
   @keyframes fadein {

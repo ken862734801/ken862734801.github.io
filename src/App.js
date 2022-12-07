@@ -10,8 +10,8 @@ function App() {
 
   return (
     <div id ="content">
-      <Header />
       <Router>
+      <Header />
       <div className = "container">
         <Routes>
           <Route path="/" element={<Home />}></Route>

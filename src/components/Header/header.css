@@ -15,16 +15,21 @@ navbar > a{
    margin:0px 20px;
    padding:20px 0px;
    color:var(--font);
-   font-size:0.97em;
+   font-size:0.80em;
    cursor:pointer;
-   font-weight: 400;
+   font-weight: 600;
    text-decoration: none;
+   color:gray;
+   text-transform: uppercase;
+}
+navbar > a:hover{
+    color:var(--font);
 }
 #menu-bars{
     color:var(--font);
     display: none;
     cursor:pointer;
-    font-size:1.40em;
+    font-size:1.20em;
     margin-top:-10px;
 }
 
@@ -32,12 +37,14 @@ navbar > a{
 @media screen and (max-width: 767px) {
     .header-container{
         width:100%;
+        justify-content: center;
+        display:flex;
     }
-    navbar > a{
+    /* navbar > a{
         display:none;
-    }
-    #menu-bars{
+    } */
+    /* #menu-bars{
         display:block;
         padding:20px 0px;
-    }
+    } */
 }

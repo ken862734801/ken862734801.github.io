@@ -1,5 +1,6 @@
 import React from 'react';
 import './contact.css';
+import Footer from '../Footer';
 
 
 function Contact () {
@@ -35,7 +36,7 @@ function Contact () {
                             </div>
                         </div> 
                         <div className='form-button-wrapper'>
-                        <button className="learn-more">
+                        <button className="submit-button">
                             <div className="circle">
                                 <span className="icon arrow"></span>
                             </div>

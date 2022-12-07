@@ -20,7 +20,7 @@ function Contact () {
                         <div className="form-input-wrapper">
                             <div className='form-input-error'></div>
                             <div className='form-input-container'>
-                                <input type='text' placeholder='Your Email' required></input>
+                                <input type='email' placeholder='Your Email' required></input>
                             </div>
                         </div>
                         <div className="form-input-wrapper">

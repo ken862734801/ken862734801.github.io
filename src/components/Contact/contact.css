@@ -51,15 +51,16 @@ input:placeholder-shown, textarea:placeholder-shown{
 }
 input:valid{
     background-color: rgba(196, 224, 196, 0.692);
-    margin-bottom:-5px;
+    /* margin-bottom:-5px; */
+}
+input:invalid{
+    background-color: rgba(224, 196, 196, 0.692);
 }
 textarea:valid{
     background-color: rgba(196, 224, 196, 0.692);
     margin-bottom:-9px;
 }
-input:invalid{
-    background-color: red;
-}
+
 .form-text-container{
     padding:5px 0px;
     margin: 28px 0px;
@@ -84,6 +85,7 @@ textarea{
     min-width:380px;
     display:flex;
     justify-content: flex-end;
+    padding-top:10px;
 }
 button {
     position: relative;

@@ -1,0 +1,55 @@
+:root{
+    --font: #363636;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size:4em;
+    color:var(--font);
+    text-indent: -5px;
+}
+.contact-container {
+    width:55%;
+    min-width:400px;
+    margin: 0 auto;
+    padding:40px 0px;
+}
+.contact-container > p:nth-of-type(1){
+    font-size:1.10em;
+    margin: 40px 0px;
+    color:var(--font);
+}
+.form-input-container{
+    padding:5px 0px;
+    margin: 22px 0px;
+    border-bottom:2px solid gainsboro;
+    width:75%;
+    min-width:400px;
+}
+.form-input-container > input{
+    padding:5px 0px;
+    font-size: 1.05em;
+    border:none;
+    outline:none;
+    width:100%;
+}
+.form-text-container{
+    padding:5px 0px;
+    margin: 28px 0px;
+    border-bottom:2px solid gainsboro;
+    width:75%;
+    min-width:400px;
+}
+textarea{
+    resize: none;
+    outline: none;
+    border:none;
+    height:150px;
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.05em;
+}

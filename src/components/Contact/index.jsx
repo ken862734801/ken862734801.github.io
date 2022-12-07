@@ -14,25 +14,25 @@ function Contact () {
                         <div className='form-input-wrapper'>
                             <div className='form-input-error'></div>
                             <div className='form-input-container'>
-                                <input type='text' placeholder='Your Name'></input>
+                                <input type='text' placeholder='Your Name' required></input>
                             </div>
                         </div>
                         <div className="form-input-wrapper">
                             <div className='form-input-error'></div>
                             <div className='form-input-container'>
-                                <input type='text' placeholder='Your Email'></input>
+                                <input type='text' placeholder='Your Email' required></input>
                             </div>
                         </div>
                         <div className="form-input-wrapper">
                             <div className='form-input-error'></div>
                             <div className='form-input-container'>
-                                <input type='text' placeholder='Subject'></input>
+                                <input type='text' placeholder='Subject' required></input>
                             </div>
                         </div>
                         <div className='form-text-wrapper'>
                             <div className='form-input-error'></div>
                             <div className='form-text-container'>
-                                <textarea placeholder='Message'></textarea>
+                                <textarea placeholder='Message' required></textarea>
                             </div>
                         </div> 
                         <div className='form-button-wrapper'>

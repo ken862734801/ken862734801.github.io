@@ -37,11 +37,28 @@ h1{
     min-width:380px;
 }
 .form-input-container > input{
-    padding:5px 0px;
+    padding:10px 10px;
     font-size:1.2em;
     border:none;
     outline:none;
     width:100%;
+    margin-bottom:-5px;
+    height:50px;
+}
+
+input:placeholder-shown, textarea:placeholder-shown{
+    background-color: white !important;
+}
+input:valid{
+    background-color: rgba(196, 224, 196, 0.692);
+    margin-bottom:-5px;
+}
+textarea:valid{
+    background-color: rgba(196, 224, 196, 0.692);
+    margin-bottom:-9px;
+}
+input:invalid{
+    background-color: red;
 }
 .form-text-container{
     padding:5px 0px;
@@ -54,11 +71,14 @@ textarea{
     resize: none;
     outline: none;
     border:none;
-    height:150px;
+    height:200px;
     width:100%;
     font-family: Arial, Helvetica, sans-serif;
     font-size:1.2em;
+    padding:10px 10px;
+    margin-bottom:-9px;
 }
+
 .form-button-wrapper{
     width:85%;
     min-width:380px;
@@ -79,15 +99,15 @@ button {
     font-family: inherit;
   }
   button.submit-button {
-    width: 13rem;
+    width: 12.5rem;
     height: auto;
   }
   button.submit-button .circle {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1.25);
     position: relative;
     margin: 0;
-    width: 2.25rem;
-    height: 2.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
     background:var(--font);
     border-radius: 1.625rem;
   }
@@ -101,7 +121,7 @@ button {
   }
   button.submit-button .circle .icon.arrow {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-    left: 0.50rem;
+    left: 0.65rem;
     width: 0.90rem;
     height: 0.065rem;
     background: none;
@@ -128,7 +148,7 @@ button {
     margin: 0 0 0 1.65rem;
     color: var(--font);
     font-weight: 700;
-    line-height: .88;
+    line-height: 1.08;
     font-size:1em;
     text-align: center;
     text-transform: uppercase;

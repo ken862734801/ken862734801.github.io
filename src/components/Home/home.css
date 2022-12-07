@@ -110,6 +110,7 @@ button {
     text-decoration: underline;
     color:gray;
     font-size: 1.3em;
+    transition: 0.3s ease;
 }
 .link-container > a:hover{
     color:var(--font);

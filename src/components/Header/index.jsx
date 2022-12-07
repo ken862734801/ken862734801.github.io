@@ -8,13 +8,15 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 function Header (){
     return(
         <header>
+            <div className="header-container">
             <navbar>
                 <a>Home</a>
                 <a>About</a>
                 <a>Work</a>
                 <a>Contact</a>
-                <FontAwesomeIcon icon={faBars} id="menu-bars" />
+                <a id="menu-bars">☰</a>
             </navbar>
+            </div>
         </header>
     )
 }

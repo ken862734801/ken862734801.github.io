@@ -40,11 +40,4 @@ navbar > a:hover{
         justify-content: center;
         display:flex;
     }
-    /* navbar > a{
-        display:none;
-    } */
-    /* #menu-bars{
-        display:block;
-        padding:20px 0px;
-    } */
 }

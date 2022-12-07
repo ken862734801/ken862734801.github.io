@@ -12,9 +12,7 @@ h1{
     color:var(--font);
     text-indent: -5px;
 }
-/* main{
-    min-height:100vh;
-} */
+
 .contact-container {
     width:70%;
     min-width:400px;
@@ -101,9 +99,9 @@ button {
   }
   button.submit-button .circle .icon.arrow {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-    left: 0.55rem;
-    width: 0.85rem;
-    height: 0.1rem;
+    left: 0.50rem;
+    width: 0.90rem;
+    height: 0.065rem;
     background: none;
   }
   button.submit-button .circle .icon.arrow::before {
@@ -111,8 +109,8 @@ button {
     content: "";
     top: -0.25rem;
     right: 0.0625rem;
-    width: 0.625rem;
-    height: 0.625rem;
+    width: 0.525rem;
+    height: 0.525rem;
     border-top: 0.125rem solid #fff;
     border-right: 0.125rem solid #fff;
     transform: rotate(45deg);
@@ -128,7 +126,7 @@ button {
     margin: 0 0 0 1.65rem;
     color: var(--font);
     font-weight: 700;
-    line-height: 1;
+    line-height: .88;
     font-size:0.90em;
     text-align: center;
     text-transform: uppercase;

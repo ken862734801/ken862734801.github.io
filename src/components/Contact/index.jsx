@@ -7,7 +7,7 @@ function Contact () {
         <main className='contact-page' id='contact-page'>
             <div className='contact-container'>
                 <h1>Get in touch.</h1>
-                <p>Do you have an idea you would like help with? Feel free to contact me.</p>
+                <p>I'm always open to discussing projects and collaborating with others. Feel free to contact me. </p>
                 <div className='contact-form-container'>
                     <form>
                         <div className='form-input-wrapper'>

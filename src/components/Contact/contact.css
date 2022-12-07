@@ -22,7 +22,7 @@ main{
     padding:40px 0px;
 }
 .contact-container > p:nth-of-type(1){
-    font-size:1.10em;
+    font-size:1.15em;
     margin: 40px 0px;
     color:var(--font);
 }

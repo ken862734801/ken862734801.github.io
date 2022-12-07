@@ -1,3 +1,33 @@
 :root{
     --font: #363636;
 }
+header{
+    display:flex;
+    justify-content: flex-end;
+}
+navbar > a{
+   display: inline-block;
+   margin:0px 20px;
+   padding:20px 0px;
+   color:var(--font);
+   font-size:1em;
+   cursor:pointer;
+}
+
+#menu-bars{
+    margin:0px 20px;
+    color:var(--font);
+    display: none;
+    cursor:pointer;
+}
+
+/* TABLETS PORTRAIT */
+@media screen and (max-width: 767px) {
+    navbar > a{
+        display:none;
+    }
+    #menu-bars{
+        display:block;
+        padding:20px 0px;
+    }
+}

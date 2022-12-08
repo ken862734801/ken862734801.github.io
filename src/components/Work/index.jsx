@@ -12,11 +12,11 @@ function Work (){
                     <h2>Recent</h2>
                     <section className='project'>
                         <div className='project-text-container'>
-                            <a href="https://ken862734801.github.io/shopping-cart/" target="_blank"><h2>E-Commerce Website</h2></a>
+                            <h2>E-Commerce Website</h2>
                             <p>A work in progress.</p>
                         </div>
                         <div className='project-image-container'>
-                            <img src={Ecommerce}></img>
+                        <a href="https://ken862734801.github.io/shopping-cart/" target="_blank"><img src={Ecommerce}></img></a>
                         </div>
                     </section>
                 </div>

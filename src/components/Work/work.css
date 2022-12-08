@@ -35,12 +35,10 @@ h2{
     padding-bottom:20px;
     min-width:380px;
 }
-.project-text-container > a > h2{
+.project-text-container >  h2{
     font-size: 2.15em;
 }
-.project-text-container > a >h2:hover{
-    color:#535353;
-}
+
 .project-text-container > p{
     color:gray;
     font-size: 1.3em;
@@ -53,7 +51,7 @@ h2{
     min-width:400px;
     margin: 0 auto;
 }
-.project-image-container > img{
+.project-image-container > a > img{
     width:100%;
 }
 

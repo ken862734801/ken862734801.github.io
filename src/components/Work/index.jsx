@@ -6,24 +6,95 @@ function Work (){
         <div className='work-page' id='work-page'>
             <div className='work-container'>
                 <h1>My work.</h1>
+                <p>A collection of my projects, ranging from static pages to MERN applications.</p>
                 <div className='main-project-container'>
-                    <h2>Fullstack</h2>
-                    <section></section>
+                    <h2>Recent</h2>
+                    <section className='project'>
+                        <div className='project-text-container'>
+                            <h2>E-Commerce Website</h2>
+                            <p>A work in progress.</p>
+                        </div>
+                        <div className='project-image-container'>
+                        </div>
+                    </section>
+                    <section className='project'>
+                        <div className='project-text-container'>
+                            <h2>Higher or Lower</h2>
+                            <p>A work in progress.</p>
+                        </div>
+                        <div className='project-image-container'>
+                        </div>
+                    </section>
+                    <section className='project'>
+                        <div className='project-text-container'>
+                            <h2>Weather App</h2>
+                            <p>A work in progress.</p>
+                        </div>
+                        <div className='project-image-container'></div>
+                    </section>
                 </div>
                 <div className='github-container'>
                     <h2>GitHub</h2>
-                    <p> Here are some of the mini-projects I completed prior to enrolling in UCF's Full Stack Web Development Program.
-                        Most of which were completed with the Odin Project's Fullstack JavaScript curriculum in mind.
+                    <p> Here are some of the mini-projects I worked on prior to enrolling in UCF's Full Stack Web Development Program.
+                        Most of which were done with the Odin Project's Fullstack JavaScript curriculum in mind.
                     </p>
                     <div className='project-list'>
                         <ul>
                             <li>
-                                <span className='number'>01</span><a href="https://ken862734801.github.io/Etch-A-Sketch/" target="_blank">Etch A Sketch</a> 
+                                <div>
+                                    <span className='number'>01</span><p>Etch A Sketch</p> 
+                                </div>
+                                <div className='code-link-container'>
+                                    <a href="https://ken862734801.github.io/Etch-A-Sketch/" target="_blank">DEMO</a>
+                                    <a href="https://ken862734801.github.io/Etch-A-Sketch/" target="_blank">CODE</a>
+                                </div>
                             </li>
                             <li>
-                            <span className='number'>02</span><a href="https://ken862734801.github.io/Calculator/"  target="_blank">Calculator</a> 
+                                <div>
+                                    <span className='number'>02</span><p>Calculator</p> 
+                                </div>
+                                <div className='code-link-container'>
+                                    <a href="https://ken862734801.github.io/Calculator/"  target="_blank">DEMO</a>
+                                    <a href="https://ken862734801.github.io/Etch-A-Sketch/" target="_blank">CODE</a>
+                                </div>
                             </li>
                             <li>
+                                <div>
+                                    <span className='number'>03</span><p>Library App</p> 
+                                </div>
+                                <div className='code-link-container'>
+                                    <a href="https://ken862734801.github.io/Calculator/"  target="_blank">DEMO</a>
+                                    <a href="https://ken862734801.github.io/Etch-A-Sketch/" target="_blank">CODE</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span className='number'>04</span><p>Tic Tac Toe</p> 
+                                </div>
+                                <div className='code-link-container'>
+                                    <a href="https://ken862734801.github.io/Tic-Tac-Toe/"  target="_blank">DEMO</a>
+                                    <a href="https://ken862734801.github.io/Etch-A-Sketch/" target="_blank">CODE</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span className='number'>05</span><p>Quiz App</p> 
+                                </div>
+                                <div className='code-link-container'>
+                                    <a href="https://ken862734801.github.io/quiz-app/" target="_blank">DEMO</a>
+                                    <a href="https://ken862734801.github.io/Etch-A-Sketch/" target="_blank">CODE</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span className='number'>06</span><p>Restaurant Website</p> 
+                                </div>
+                                <div className='code-link-container'>
+                                    <a href="https://ken862734801.github.io/restaurant-website/" target="_blank">DEMO</a>
+                                    <a href="https://ken862734801.github.io/Etch-A-Sketch/" target="_blank">CODE</a>
+                                </div>
+                            </li>
+                            {/* <li>
                                 <span className='number'>03</span><a href="https://ken862734801.github.io/Library-App/" target="_blank">Library App</a> 
                             </li>
                             <li>
@@ -34,7 +105,7 @@ function Work (){
                             </li>
                             <li>
                                 <span className='number'>06</span><a href="https://ken862734801.github.io/quiz-app/" target="_blank">Quiz App</a> 
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </div>

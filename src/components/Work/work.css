@@ -16,7 +16,32 @@
 }
 h2{
     color: var(--font);
-    font-size:3em;
+    font-size:3.25em;
+}
+.work-container > p:nth-of-type(1){
+    font-size: 1.30em;
+    color:gray;
+    line-height: 2;
+    margin:30px 0px;
+}
+.main-project-container > h2:nth-of-type(1){
+    margin-bottom:10px;
+}
+.project{
+    border-top:2px solid gray;
+    width:90%;
+    padding:30px 0px;
+    min-width:380px;
+}
+.project-text-container > h2{
+    font-size: 2.40em;
+}
+
+.project-text-container > p{
+    color:gray;
+    font-size: 1.3em;
+    margin:20px 0px;
+    line-height: 2;
 }
 .github-container{
     min-height: 380px;
@@ -32,27 +57,63 @@ h2{
 }
 .number{
     color: gray;
-    font-size:.575em;
-    margin-right:10px;
+    font-size:.60em;
+    margin-right:20px;
     font-weight: normal;
 }
 li {
     display:flex;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: space-between;
+    /* border:1px solid red; */
     font-size: 1.95em;
     color: var(--font);
+    padding:20px 10px;
+    width:90%;
+    min-width:380px;
+}
+li > div{
+    display:flex;
+    align-items: center;
+}
+li > div > p{
+    text-decoration: none;
+    color:var(--font);
+    cursor: auto;
     font-weight: bold;
 }
 
-li > a{
-    text-decoration: none;
-    color:var(--font);
-    width:90%;
-    padding:20px 10px;
-}
-li > a:hover{
-    text-decoration: underline;
+li:hover{
     translate: 3px;
     transition: 0.2s ease;
     background-color: rgb(247, 247, 247);
+}
+.code-link-container{
+    /* border:1px solid blue; */
+    margin:0;
+    display:flex;
+    justify-content: space-around;
+    min-width:200px;
+    width:20%;
+}
+.code-link-container > a{
+    text-decoration: none;
+    color:gray;
+    font-size: .575em;
+    font-weight: normal;
+}
+.code-link-container > a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+@media screen and (max-width: 767px) {
+    .code-link-container{
+        justify-content: flex-end;
+        width:100%;
+    }
+    .code-link-container > a{
+        margin:15px 10px;
+        font-size:.50em;
+    }
 }

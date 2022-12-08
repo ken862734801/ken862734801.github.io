@@ -97,7 +97,7 @@ button {
   button:hover .button-text {
     color: #fff;
   }
-.link-container{
+.links-container{
     margin-top:80px;
     /* border:1px solid red; */
     min-width:300px;
@@ -106,13 +106,13 @@ button {
     justify-content: space-between;
     align-items: center;
 }
-.link-container > a{
+.links-container > a{
     text-decoration: underline;
     color:gray;
     font-size: 1.3em;
     transition: 0.3s ease;
 }
-.link-container > a:hover{
+.links-container > a:hover{
     color:var(--font);
     translate: 3px;
     transition: 0.3s ease;
@@ -162,7 +162,7 @@ button {
     .hero-container{
         padding:40px 0px;
     }
-    .link-container > a{
+    .links-container > a{
         font-size:1.2em;
     }
     .slant{

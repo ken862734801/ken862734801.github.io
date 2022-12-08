@@ -18,7 +18,7 @@ function Home(){
                         </Link>
                     </button>  
                 </div> 
-                <div className ="link-container">
+                <div className ="links-container">
                     <a href="https://github.com/ken862734801" target="_blank" rel="noreferrer">GitHub</a>
                     <span className="slant">/</span>
                     <a href="https://linkedin.com/in/kenshawmichaud" target="_blank" rel="noreferrer">LinkedIn</a>

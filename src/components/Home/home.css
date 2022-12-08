@@ -6,7 +6,7 @@
     -o-animation: fadein 0.75s; /* Opera */
 }
 .hero-container{
-    padding:60px 15px;
+    padding:40px 15px;
     width:70%;
     min-width:380px;
     margin: 0 auto;

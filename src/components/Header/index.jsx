@@ -17,8 +17,12 @@ function Header (){
                     <Link to="/home">
                         <a>Home</a>
                     </Link>
-                    <a>About</a>
-                    <a>Work</a>
+                    <Link to="/about">
+                        <a>About</a>
+                    </Link>
+                    <Link to="/work">
+                        <a>Work</a>
+                    </Link>
                     <Link to="/contact">
                         <a>Contact</a>
                     </Link>

@@ -20,7 +20,7 @@ a{
     text-decoration: none;
 }
 navbar{
-    min-width:300px;
+    min-width:275px;
     display: flex;
     justify-content: space-between;
 }

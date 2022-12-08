@@ -26,7 +26,7 @@ function Header (){
                     <Link to="/contact">
                         <a>Contact</a>
                     </Link>
-                    <a id="menu-bars">☰</a>
+                    <a id="menu-bars"></a>
                 </navbar>
             </div>
         </header>

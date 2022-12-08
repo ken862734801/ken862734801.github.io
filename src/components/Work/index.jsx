@@ -1,4 +1,5 @@
 import React from 'react';
+import Ecommerce from '../Images/e-commerce.jpeg'
 import './work.css'
 
 function Work (){
@@ -11,18 +12,11 @@ function Work (){
                     <h2>Recent</h2>
                     <section className='project'>
                         <div className='project-text-container'>
-                            <h2>E-Commerce Website</h2>
+                            <a href="https://ken862734801.github.io/shopping-cart/" target="_blank"><h2>E-Commerce Website</h2></a>
                             <p>A work in progress.</p>
                         </div>
                         <div className='project-image-container'>
-                        </div>
-                    </section>
-                    <section className='project'>
-                        <div className='project-text-container'>
-                            <h2>Higher or Lower</h2>
-                            <p>A work in progress.</p>
-                        </div>
-                        <div className='project-image-container'>
+                            <img src={Ecommerce}></img>
                         </div>
                     </section>
                 </div>

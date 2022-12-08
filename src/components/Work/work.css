@@ -16,7 +16,7 @@
 }
 h2{
     color: var(--font);
-    font-size:3.25em;
+    font-size:3.15em;
 }
 .work-container > p:nth-of-type(1){
     font-size: 1.30em;
@@ -29,23 +29,34 @@ h2{
 }
 .project{
     border-top:2px solid gray;
+    border-bottom:2px solid gray;
     width:90%;
-    padding:30px 0px;
+    padding-top:30px;
+    padding-bottom:20px;
     min-width:380px;
 }
-.project:nth-of-type(2){
-    border-bottom:2px solid gray;
+.project-text-container > a > h2{
+    font-size: 2.15em;
 }
-.project-text-container > h2{
-    font-size: 2.40em;
+.project-text-container > a >h2:hover{
+    color:#535353;
 }
-
 .project-text-container > p{
     color:gray;
     font-size: 1.3em;
-    margin:20px 0px;
+    margin-top:10px;
+    margin-bottom:20px;
     line-height: 2;
 }
+.project-image-container {
+    width:100%;
+    min-width:400px;
+    margin: 0 auto;
+}
+.project-image-container > img{
+    width:100%;
+}
+
 .github-container{
     min-height: 380px;
     margin: 30px 0px;

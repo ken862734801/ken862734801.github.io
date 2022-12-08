@@ -1,0 +1,55 @@
+:root{
+    --font: #363636;
+}
+#work-page{
+    min-height:100vh;
+    animation: fadein 0.75s;
+    -moz-animation: fadein 0.75s; /* Firefox */
+    -webkit-animation: fadein 0.75s; /* Safari and Chrome */
+    -o-animation: fadein 0.75s; /* Opera */
+}
+.work-container{
+    width:70%;
+    margin:0 auto;
+    min-width:400px;
+    padding:40px 10px;
+}
+h2{
+    color: var(--font);
+    font-size:3em;
+}
+.github-container{
+    min-height: 380px;
+    margin: 30px 0px;
+}
+.github-container > p{
+    color:gray;
+    font-size: 1.3em;
+    line-height: 2;
+    min-width:380px;
+    margin:20px 0px;
+    width:90%;
+}
+.number{
+    color: gray;
+    font-size:.65em;
+    margin-right:20px;
+    font-weight: normal;
+}
+li{
+    display:flex;
+    align-items: center;
+    padding:20px 0px;
+    font-size: 1.75em;
+    list-style-type: none;
+    color: var(--font);
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color:var(--font);
+}
+a:hover{
+    text-decoration: underline;
+}

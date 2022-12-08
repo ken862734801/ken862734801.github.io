@@ -131,9 +131,9 @@ button {
   }
   button.submit-button .circle .icon.arrow {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-    left: 0.65rem;
-    width: 0.95rem;
-    height: 0.065rem;
+    left: 0.55rem;
+    width: 1rem;
+    height: 0.09rem;
     background: none;
   }
   button.submit-button .circle .icon.arrow::before {

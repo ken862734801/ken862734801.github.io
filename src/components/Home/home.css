@@ -114,6 +114,8 @@ button {
 }
 .link-container > a:hover{
     color:var(--font);
+    translate: 3px;
+    transition: 0.3s ease;
 }
 .slant{
     font-weight:bold;

@@ -32,24 +32,27 @@ h2{
 }
 .number{
     color: gray;
-    font-size:.65em;
-    margin-right:20px;
+    font-size:.575em;
+    margin-right:10px;
     font-weight: normal;
 }
-li{
+li {
     display:flex;
     align-items: center;
-    padding:20px 0px;
-    font-size: 1.75em;
-    list-style-type: none;
+    font-size: 1.95em;
     color: var(--font);
     font-weight: bold;
 }
 
-a{
+li > a{
     text-decoration: none;
     color:var(--font);
+    width:90%;
+    padding:20px 10px;
 }
-a:hover{
+li > a:hover{
     text-decoration: underline;
+    translate: 3px;
+    transition: 0.2s ease;
+    background-color: rgb(247, 247, 247);
 }

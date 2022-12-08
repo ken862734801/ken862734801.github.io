@@ -46,7 +46,28 @@ navbar > a:hover{
     padding:18px 0px;
     display:none;
 }
-
+#sideNav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center; 
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 27px;
+    right: 15px;
+    width:18px;
+    margin-left: 50px;
+    color:white;
+    font-weight: lighter;
+  }
 /* TABLETS PORTRAIT */
 @media screen and (max-width: 767px) {
     .header-container{

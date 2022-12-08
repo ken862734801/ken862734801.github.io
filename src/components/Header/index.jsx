@@ -45,16 +45,16 @@ function Header (){
             <div className="sidenav" id="sideNav">
                 <img src={close} className="closebtn" onClick={closeNav}></img>
                     <Link to="/home">
-                        <a>Home</a>
+                        <a onClick={closeNav}>Home</a>
                     </Link>
                     <Link to="/about">
-                        <a>About</a>
+                        <a onClick={closeNav}>About</a>
                     </Link>
                     <Link to="/work">
-                        <a>Work</a>
+                        <a onClick={closeNav}>Work</a>
                     </Link>
                     <Link to="/contact">
-                        <a>Contact</a>
+                        <a onClick={closeNav}>Contact</a>
                     </Link>
             </div>
         </header>

@@ -48,7 +48,7 @@ function Work (){
                                 </div>
                                 <div className='code-link-container'>
                                     <a href="https://ken862734801.github.io/Etch-A-Sketch/" target="_blank">DEMO</a>
-                                    <a href="https://ken862734801.github.io/Etch-A-Sketch/" target="_blank">CODE</a>
+                                    <a href="https://github.com/ken862734801/Etch-A-Sketch/" target="_blank">CODE</a>
                                 </div>
                             </li>
                             <li>

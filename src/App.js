@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header'
 import Home from './components/Home';
@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div id ="content">
-      <Router>
+      <HashRouter>
       <Header />
       <div className = "container">
         <Routes>
@@ -25,7 +25,7 @@ function App() {
           <Route path="*" element={<NotFound/>}></Route>
         </Routes>
       </div>
-      </Router>
+      </HashRouter>
       <Footer/>
     </div>
   );

@@ -6,6 +6,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Work from './components/Work';
 import Contact from './components/Contact';
+import NotFound from './components/404';
 import Footer from './components/Footer';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="/about" element={<About />}></Route>
           <Route path="/work" element={<Work/>}></Route>
           <Route path="/contact" element={<Contact />}></Route>
+          <Route path="*" element={<NotFound/>}></Route>
         </Routes>
       </div>
       </Router>

@@ -1,6 +1,8 @@
 import React from "react";
 import './header.css';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 
 
@@ -26,7 +28,7 @@ function Header (){
                     <Link to="/contact">
                         <a>Contact</a>
                     </Link>
-                    <a id="menu-bars"></a>
+                    <p id="menu">&#9776;</p>
                 </navbar>
             </div>
         </header>

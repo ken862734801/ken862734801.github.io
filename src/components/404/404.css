@@ -16,12 +16,13 @@
     min-width:380px;
     display:flex;
     justify-content: center;
+    flex-direction: column;
     
 }
 .lost-container > p{
     font-size:1.80em;
     line-height: 1.5;
-    margin:20px 0px;
+    margin:10px 0px;
     max-width:700px;
     color:var(--font);
     align-self: center;

@@ -83,7 +83,7 @@ function Work (){
                             </li>
                             <li>
                                 <div>
-                                    <span className='number'>07</span><p>Restaurant Website</p> 
+                                    <span className='number'>07</span><p>Restaurant</p> 
                                 </div>
                                 <div className='code-link-container'>
                                     <a href="https://ken862734801.github.io/restaurant-website/" target="_blank">DEMO</a>

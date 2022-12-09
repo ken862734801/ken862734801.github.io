@@ -99,3 +99,11 @@ navbar > a:hover{
         display:none;
     }
 }
+@media screen and (max-width: 420px) {
+    #menu{
+        display:block;
+        font-size:2em !important;
+        margin-top:-5px;
+    }
+}
+

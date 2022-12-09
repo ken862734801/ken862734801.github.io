@@ -4,6 +4,7 @@ https://ken862734801.github.io/react-portfolio/
 
 <img src = "src\components\Images\react-portfolio-1.jpeg">
 <img src = "src\components\Images\react-portfolio-2.jpeg">
+<img src = "src\components\Images\react-portfolio-3.jpeg">
 <img src = "src\components\Images\react-portfolio-4.jpeg">
 <img src = "src\components\Images\react-portfolio-5.jpeg">
 

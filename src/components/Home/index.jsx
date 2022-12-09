@@ -2,6 +2,10 @@ import React from "react";
 import './home.css';
 import { Link } from 'react-router-dom';
 
+function scrollToTop(){
+    window.scrollTo(0, 0)
+};
+
 function Home(){
     return(
         <main className='home-page' id='home-page'>
@@ -14,7 +18,7 @@ function Home(){
                             <span className="icon arrow"></span>
                         </div>
                         <Link to="/work">
-                            <p className="button-text">VIEW MY WORK</p>
+                            <p className="button-text" onClick={scrollToTop}>VIEW MY WORK</p>
                         </Link>
                     </button>  
                 </div> 

@@ -23,3 +23,6 @@ body{
   min-height:100vh;
   background-color: white;
 }
+#root{
+  background-color: white;
+}

@@ -22,8 +22,8 @@ function Work (){
                 </div>
                 <div className='github-container'>
                     <h2>GitHub</h2>
-                    <p> Here are some of the mini-projects I worked on before and during UCF's Full Stack Web Development Program.
-                        Most of which were done with the Odin Project's Fullstack JavaScript curriculum in mind.
+                    <p> Here are some of the mini-projects I worked on before and during UCF's Fullstack Web Development Program.
+                        Most of which were done with the Odin Project's JavaScript curriculum in mind.
                     </p>
                     <div className='project-list'>
                         <ul>

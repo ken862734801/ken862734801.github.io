@@ -2,22 +2,27 @@ import React from "react";
 import './header.css';
 import { Link } from 'react-router-dom';
 import close from "../Images/close.png"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faX } from '@fortawesome/free-solid-svg-icons'
 
+
+let theme = document.getElementsByTagName("meta")[2];
 
 
 function openNav(){
     document.getElementById("sideNav").style.width = "100%";
+    theme.content = "#111";
     console.log("Opening!")
+   
 };
 
 function closeNav(){
     document.getElementById("sideNav").style.width = "0";
+    theme.content = "#ffffff";
     console.log("Closing!")
+
 };
 
 function Header (){
+
     return(
         <header>
             <div className="header-container">

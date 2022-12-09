@@ -94,6 +94,7 @@ navbar > a:hover{
     }
     #menu{
         display:block;
+        background-color: #000000;
     }
     navbar > a {
         display:none;

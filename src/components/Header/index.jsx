@@ -9,16 +9,18 @@ let theme = document.getElementsByTagName("meta")[2];
 
 function openNav(){
     document.getElementById("sideNav").style.width = "100%";
-    theme.content = "#111";
-    console.log("Opening!")
-   
+    setTimeout(function(){
+        theme.content = "#111";
+    }, 600)
+    console.log("Opening!")  
 };
 
 function closeNav(){
     document.getElementById("sideNav").style.width = "0";
-    theme.content = "#ffffff";
+    setTimeout(function(){
+        theme.content = "#ffffff";
+    }, 600)
     console.log("Closing!")
-
 };
 
 function Header (){

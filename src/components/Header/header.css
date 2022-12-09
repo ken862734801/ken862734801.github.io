@@ -102,8 +102,8 @@ navbar > a:hover{
 @media screen and (max-width: 420px) {
     #menu{
         display:block;
-        font-size:2em !important;
-        margin-top:-5px;
+        font-size:2.5em !important;
+        margin-top:-9px;
     }
 }
 

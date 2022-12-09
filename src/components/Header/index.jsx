@@ -11,7 +11,7 @@ function openNav(){
     document.getElementById("sideNav").style.width = "100%";
     setTimeout(function(){
         theme.content = "#111";
-    }, 365)
+    }, 375)
     console.log("Opening!")  
 };
 
@@ -19,7 +19,7 @@ function closeNav(){
     document.getElementById("sideNav").style.width = "0";
     setTimeout(function(){
         theme.content = "#ffffff";
-    }, 335)
+    }, 345)
     console.log("Closing!")
 };
 

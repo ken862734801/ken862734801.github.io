@@ -10,29 +10,29 @@ function Contact () {
                 <h1>Get in touch.</h1>
                 <p>Have an idea in mind? I'm always open to discussing projects and collaborating with others. <br></br>Feel free to message me below or email me at <span>kenshawmichaud@gmail.com</span></p>
                 <div className='contact-form-container'>
-                    <form>
+                    <form action="https://formsubmit.co/62d3e5b82b6024fa1bebde2ad5929886" method="POST">
                         <div className='form-input-wrapper'>
                             <div className='form-input-error'></div>
                             <div className='form-input-container'>
-                                <input type='text' placeholder='Your Name' required></input>
+                                <input type='text' name='name' placeholder='Your Name' required></input>
                             </div>
                         </div>
                         <div className="form-input-wrapper">
                             <div className='form-input-error'></div>
                             <div className='form-input-container'>
-                                <input type='email' placeholder='Your Email' required></input>
+                                <input type='email' name='email' placeholder='Your Email' required></input>
                             </div>
                         </div>
                         <div className="form-input-wrapper">
                             <div className='form-input-error'></div>
                             <div className='form-input-container'>
-                                <input type='text' placeholder='Subject' required></input>
+                                <input type='text' name='subject' placeholder='Subject' required></input>
                             </div>
                         </div>
                         <div className='form-text-wrapper'>
                             <div className='form-input-error'></div>
                             <div className='form-text-container'>
-                                <textarea placeholder='Message' required></textarea>
+                                <textarea name='message' placeholder='Message' required></textarea>
                             </div>
                         </div> 
                         <div className='form-button-wrapper'>

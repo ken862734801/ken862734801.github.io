@@ -10,8 +10,7 @@ function Contact () {
                 <h1>Get in touch.</h1>
                 <p>Have an idea in mind? I'm always open to discussing projects and collaborating with others. <br></br>Feel free to message me below or email me at <span>kenshawmichaud@gmail.com</span></p>
                 <div className='contact-form-container'>
-                    {/* Add form submit to receive messages to my email. */}
-                    <form action="https://formsubmit.co/62d3e5b82b6024fa1bebde2ad5929886" method="POST">
+                    <form>
                         <div className='form-input-wrapper'>
                             <div className='form-input-error'></div>
                             <div className='form-input-container'>

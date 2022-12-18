@@ -1,6 +1,6 @@
 # React Portfolio
 
-https://ken862734801.github.io/react-portfolio/
+https://ken862734801.github.io/
 
 ## Summary
 

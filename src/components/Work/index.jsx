@@ -29,7 +29,16 @@ function Work (){
                         <ul>
                             <li>
                                 <div>
-                                    <span className='number'>01</span><p>Weather App</p> 
+                                    <span className='number'>01</span><p>Restaurant</p> 
+                                </div>
+                                <div className='code-link-container'>
+                                    <a href="https://ken862734801.github.io/restaurant-website/" target="_blank">DEMO</a>
+                                    <a href="https://github.com/ken862734801/restaurant-website/" target="_blank">CODE</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span className='number'>02</span><p>Weather App</p> 
                                 </div>
                                 <div className='code-link-container'>
                                     <a href="https://ken862734801.github.io/weather-app/" target="_blank">DEMO</a>
@@ -79,15 +88,6 @@ function Work (){
                                 <div className='code-link-container'>
                                     <a href="https://ken862734801.github.io/quiz-app/" target="_blank">DEMO</a>
                                     <a href="https://github.com/ken862734801/quiz-app/" target="_blank">CODE</a>
-                                </div>
-                            </li>
-                            <li>
-                                <div>
-                                    <span className='number'>07</span><p>Restaurant</p> 
-                                </div>
-                                <div className='code-link-container'>
-                                    <a href="https://ken862734801.github.io/restaurant-website/" target="_blank">DEMO</a>
-                                    <a href="https://github.com/ken862734801/restaurant-website/" target="_blank">CODE</a>
                                 </div>
                             </li>
                             {/* <li>

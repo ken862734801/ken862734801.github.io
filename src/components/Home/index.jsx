@@ -1,6 +1,7 @@
 import React from "react";
 import './home.css';
 import { Link } from 'react-router-dom';
+import pdf from "../Images/kenshaw_michaud_resume.pdf"
 
 function scrollToTop(){
     window.scrollTo(0, 0)
@@ -27,7 +28,7 @@ function Home(){
                     <span className="slant">/</span>
                     <a href="https://linkedin.com/in/kenshawmichaud" target="_blank" rel="noreferrer">LinkedIn</a>
                     <span className="slant">/</span>
-                    <a href="">Resume</a>
+                    <a href={pdf} target="_blank">Resume</a>
                 </div>     
             </section>
         </main>

@@ -32,8 +32,8 @@ function Work (){
                                     <span className='number'>01</span><p>Poster Generator</p> 
                                 </div>
                                 <div className='code-link-container'>
-                                    <a href="https://ken862734801.github.io/album-poster-generatorv0.1/" target="_blank">DEMO</a>
-                                    <a href="https://github.com/ken862734801/album-poster-generatorv0.1" target="_blank">CODE</a>
+                                    <a href="https://ken862734801.github.io/album-poster-generator/" target="_blank">DEMO</a>
+                                    <a href="https://github.com/ken862734801/album-poster-generator/" target="_blank">CODE</a>
                                 </div>
                             </li>
                             <li>

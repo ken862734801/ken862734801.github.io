@@ -29,7 +29,16 @@ function Work (){
                         <ul>
                             <li>
                                 <div>
-                                    <span className='number'>01</span><p>Restaurant</p> 
+                                    <span className='number'>01</span><p>Poster Generator</p> 
+                                </div>
+                                <div className='code-link-container'>
+                                    <a href="https://ken862734801.github.io/album-poster-generatorv0.1/" target="_blank">DEMO</a>
+                                    <a href="https://github.com/ken862734801/album-poster-generatorv0.1" target="_blank">CODE</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span className='number'>02</span><p>Restaurant</p> 
                                 </div>
                                 <div className='code-link-container'>
                                     <a href="https://ken862734801.github.io/restaurant-website/" target="_blank">DEMO</a>
@@ -38,7 +47,7 @@ function Work (){
                             </li>
                             <li>
                                 <div>
-                                    <span className='number'>02</span><p>Weather App</p> 
+                                    <span className='number'>03</span><p>Weather App</p> 
                                 </div>
                                 <div className='code-link-container'>
                                     <a href="https://ken862734801.github.io/weather-app/" target="_blank">DEMO</a>
@@ -47,7 +56,7 @@ function Work (){
                             </li>
                             <li>
                                 <div>
-                                    <span className='number'>03</span><p>Etch A Sketch</p> 
+                                    <span className='number'>04</span><p>Etch A Sketch</p> 
                                 </div>
                                 <div className='code-link-container'>
                                     <a href="https://ken862734801.github.io/Etch-A-Sketch/" target="_blank">DEMO</a>
@@ -56,7 +65,7 @@ function Work (){
                             </li>
                             <li>
                                 <div>
-                                    <span className='number'>04</span><p>Calculator</p> 
+                                    <span className='number'>05</span><p>Calculator</p> 
                                 </div>
                                 <div className='code-link-container'>
                                     <a href="https://ken862734801.github.io/Calculator/"  target="_blank">DEMO</a>
@@ -65,7 +74,7 @@ function Work (){
                             </li>
                             <li>
                                 <div>
-                                    <span className='number'>05</span><p>Library App</p> 
+                                    <span className='number'>06</span><p>Library App</p> 
                                 </div>
                                 <div className='code-link-container'>
                                     <a href="https://ken862734801.github.io/Library-App/"  target="_blank">DEMO</a>
@@ -74,7 +83,7 @@ function Work (){
                             </li>
                             <li>
                                 <div>
-                                    <span className='number'>06</span><p>Tic Tac Toe</p> 
+                                    <span className='number'>07</span><p>Tic Tac Toe</p> 
                                 </div>
                                 <div className='code-link-container'>
                                     <a href="https://ken862734801.github.io/Tic-Tac-Toe/"  target="_blank">DEMO</a>
@@ -83,7 +92,7 @@ function Work (){
                             </li>
                             <li>
                                 <div>
-                                    <span className='number'>07</span><p>Quiz App</p> 
+                                    <span className='number'>08</span><p>Quiz App</p> 
                                 </div>
                                 <div className='code-link-container'>
                                     <a href="https://ken862734801.github.io/quiz-app/" target="_blank">DEMO</a>
